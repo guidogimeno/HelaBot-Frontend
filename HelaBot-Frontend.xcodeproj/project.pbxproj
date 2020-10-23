@@ -8,18 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		361A666E254230AF001C3648 /* HelaBot_FrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A666D254230AF001C3648 /* HelaBot_FrontendApp.swift */; };
-		361A6670254230AF001C3648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361A666F254230AF001C3648 /* ContentView.swift */; };
 		361A6672254230B2001C3648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361A6671254230B2001C3648 /* Assets.xcassets */; };
 		361A6675254230B2001C3648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361A6674254230B2001C3648 /* Preview Assets.xcassets */; };
+		362357F825432DBE00035213 /* GroceryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362357F725432DBE00035213 /* GroceryItem.swift */; };
+		362357FC25432DCA00035213 /* GroceryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362357FB25432DCA00035213 /* GroceryProduct.swift */; };
+		362357FF25432DD200035213 /* Fridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362357FE25432DD200035213 /* Fridge.swift */; };
+		3623580225432DDF00035213 /* GroceryCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623580125432DDF00035213 /* GroceryCategory.swift */; };
+		3623580525432E1500035213 /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623580425432E1500035213 /* CodeScanner.swift */; };
+		3623580825432E1D00035213 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623580725432E1D00035213 /* MainView.swift */; };
+		3623580B25432E2E00035213 /* GroceryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623580A25432E2E00035213 /* GroceryItemView.swift */; };
+		3623580E25432E3900035213 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623580D25432E3900035213 /* AddView.swift */; };
+		3623581125432E4400035213 /* CreateProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623581025432E4400035213 /* CreateProductView.swift */; };
+		3623581425432E7600035213 /* FridgeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623581325432E7600035213 /* FridgeViewModel.swift */; };
+		3623581725432E9400035213 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623581625432E9400035213 /* APIManager.swift */; };
+		3623581A25432EA300035213 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623581925432EA300035213 /* Path.swift */; };
+		3623581D25432EB800035213 /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3623581C25432EB800035213 /* HttpError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		361A666A254230AF001C3648 /* HelaBot-Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelaBot-Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		361A666A254230AF001C3648 /* HelaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361A666D254230AF001C3648 /* HelaBot_FrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelaBot_FrontendApp.swift; sourceTree = "<group>"; };
-		361A666F254230AF001C3648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		361A6671254230B2001C3648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		361A6674254230B2001C3648 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		361A6676254230B2001C3648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362357F725432DBE00035213 /* GroceryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItem.swift; sourceTree = "<group>"; };
+		362357FB25432DCA00035213 /* GroceryProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryProduct.swift; sourceTree = "<group>"; };
+		362357FE25432DD200035213 /* Fridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fridge.swift; sourceTree = "<group>"; };
+		3623580125432DDF00035213 /* GroceryCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCategory.swift; sourceTree = "<group>"; };
+		3623580425432E1500035213 /* CodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
+		3623580725432E1D00035213 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3623580A25432E2E00035213 /* GroceryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemView.swift; sourceTree = "<group>"; };
+		3623580D25432E3900035213 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		3623581025432E4400035213 /* CreateProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductView.swift; sourceTree = "<group>"; };
+		3623581325432E7600035213 /* FridgeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FridgeViewModel.swift; sourceTree = "<group>"; };
+		3623581625432E9400035213 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3623581925432EA300035213 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		3623581C25432EB800035213 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +68,7 @@
 		361A666B254230AF001C3648 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				361A666A254230AF001C3648 /* HelaBot-Frontend.app */,
+				361A666A254230AF001C3648 /* HelaBot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +76,12 @@
 		361A666C254230AF001C3648 /* HelaBot-Frontend */ = {
 			isa = PBXGroup;
 			children = (
+				362357F225432C8800035213 /* Exceptions */,
+				362357F325432C9100035213 /* APIManager */,
+				362357F625432CAB00035213 /* Model */,
+				362357F425432C9900035213 /* View */,
+				362357F525432CA100035213 /* ViewModel */,
 				361A666D254230AF001C3648 /* HelaBot_FrontendApp.swift */,
-				361A666F254230AF001C3648 /* ContentView.swift */,
 				361A6671254230B2001C3648 /* Assets.xcassets */,
 				361A6676254230B2001C3648 /* Info.plist */,
 				361A6673254230B2001C3648 /* Preview Content */,
@@ -67,6 +95,54 @@
 				361A6674254230B2001C3648 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		362357F225432C8800035213 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				3623581C25432EB800035213 /* HttpError.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		362357F325432C9100035213 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				3623581625432E9400035213 /* APIManager.swift */,
+				3623581925432EA300035213 /* Path.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		362357F425432C9900035213 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3623580425432E1500035213 /* CodeScanner.swift */,
+				3623580725432E1D00035213 /* MainView.swift */,
+				3623580A25432E2E00035213 /* GroceryItemView.swift */,
+				3623580D25432E3900035213 /* AddView.swift */,
+				3623581025432E4400035213 /* CreateProductView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		362357F525432CA100035213 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3623581325432E7600035213 /* FridgeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		362357F625432CAB00035213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				362357F725432DBE00035213 /* GroceryItem.swift */,
+				362357FB25432DCA00035213 /* GroceryProduct.swift */,
+				362357FE25432DD200035213 /* Fridge.swift */,
+				3623580125432DDF00035213 /* GroceryCategory.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,7 +162,7 @@
 			);
 			name = "HelaBot-Frontend";
 			productName = "HelaBot-Frontend";
-			productReference = 361A666A254230AF001C3648 /* HelaBot-Frontend.app */;
+			productReference = 361A666A254230AF001C3648 /* HelaBot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,8 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				361A6670254230AF001C3648 /* ContentView.swift in Sources */,
+				362357FF25432DD200035213 /* Fridge.swift in Sources */,
+				3623580825432E1D00035213 /* MainView.swift in Sources */,
+				3623580E25432E3900035213 /* AddView.swift in Sources */,
+				3623580525432E1500035213 /* CodeScanner.swift in Sources */,
+				3623580225432DDF00035213 /* GroceryCategory.swift in Sources */,
+				362357F825432DBE00035213 /* GroceryItem.swift in Sources */,
+				3623581D25432EB800035213 /* HttpError.swift in Sources */,
+				3623581125432E4400035213 /* CreateProductView.swift in Sources */,
+				3623581A25432EA300035213 /* Path.swift in Sources */,
+				3623580B25432E2E00035213 /* GroceryItemView.swift in Sources */,
+				3623581425432E7600035213 /* FridgeViewModel.swift in Sources */,
+				3623581725432E9400035213 /* APIManager.swift in Sources */,
 				361A666E254230AF001C3648 /* HelaBot_FrontendApp.swift in Sources */,
+				362357FC25432DCA00035213 /* GroceryProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guidogimeno.HelaBot-Frontend";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HelaBot;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guidogimeno.HelaBot-Frontend";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HelaBot;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
